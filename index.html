@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Library Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Library Organizer</h1>
+        <label class="switch">
+            <input type="checkbox" onclick="toggleDarkMode()">
+            <span class="slider"></span>
+        </label>
+        <div class="search-section">
+            <h2>Search Books</h2>
+            <input type="text" id="bookSearch" placeholder="Enter book title">
+            <button onclick="searchBooks()">Search</button>
+            <div id="searchResults" class="flex-container"></div>
+        </div>
+        <div class="library-section">
+            <h2>Your Library</h2>
+            <div id="libraryList" class="flex-container"></div>
+        </div>
+        <div class="progress-section">
+            <h2>Reading Progress</h2>
+            <div id="progressList" class="flex-container"></div>
+        </div>
+        <div class="recommendation-section">
+            <h2>Book Recommendations</h2>
+            <input type="text" id="genreInput" placeholder="Enter genre">
+            <button onclick="recommendBooks()">Recommend</button>
+            <div id="recommendationList" class="flex-container"></div>
+        </div>
+    </div>
+
+    <!-- Modal for larger image view -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
