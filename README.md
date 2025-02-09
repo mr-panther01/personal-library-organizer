@@ -2,7 +2,7 @@
 
 
 ## Introduction
-Welcome to **BookNest Organizer**, a personal library management application that helps you organize, search, and track your books. Whether you are an avid reader, a student, or a professional, BookNest Organizer offers a user-friendly interface to manage your entire book collection with ease.
+Welcome to **Books Organizer**, a personal library management application that helps you organize, search, and track your books. Whether you are an avid reader, a student, or a professional, BookNest Organizer offers a user-friendly interface to manage your entire book collection with ease.
 
 ## Features
 - **Dark Mode**: Toggle between light and dark modes to suit your reading environment.
